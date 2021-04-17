@@ -9,21 +9,21 @@ Para rodar o sistema é necessario possuir o JAVA na versão 11, Maven e MySQL s
 ### Buildar o projeto
    
 ```
-    mvn package 
+mvn package 
 ```
 
 ### Banco de dados
 
 Foi usado o MySQL como o nosso banco de dados então para rodar o projeto é necessario rodar o comando
 ```
-    create database employeemanager
+create database employeemanager
 ```
 depois disso coloque suas configurações do my sql no application.propperties
 
 ### Rodar a aplicação
 para rodar a apliação é so dar o comando abaixo a porta definida é ```localhost:8080/```.
 ```
-  mvn spring-boot:run
+mvn spring-boot:run
 ```
 use os métodos abaixo para testar a api
 
