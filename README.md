@@ -4,7 +4,6 @@ Essa é uma aplicação feita usando spring boot no padrão MVC (model view cont
 
 ## 💻 Instruções para o back end
 
-<<<<<<< HEAD
 Começaremos criando as instâncias dos nossos bancos de dados. Para esse projeto, é necessario ter um MySQL server instalado na sua maquina. com ele instalado vai na no aplication propeties o caminho está em 
 `employeerm-api\src\main\resources\application.properties`
 com isso vc muda a porta na qual está utilizando, e a senha/username se precisar.
@@ -47,7 +46,6 @@ para rodar a apliação é so dar o comando abaixo a porta definida é ```localh
 mvn spring-boot:run
 ```
 use os métodos abaixo para testar a api
->>>>>>> 0e2c7b5f319af4078a310de4fd7f7ad2172a8cd4
 
 | METHOD | URI | RETURN | DESCRIPTION | 
 | ------ | ------ | ------| ----- |
@@ -55,8 +53,4 @@ use os métodos abaixo para testar a api
 | GET | [employee/find/{id}] | Employee| Return the Id Employee.
 | POST | [employee/add] | return 201 .CREATED| to adda a new Employee.
 | PUT | [employee/update] | return 200 .OK| to update a Employee
-<<<<<<< HEAD
 | DELETE | [employee/delete/{id}] | return 200 .OK | To delete a Employee.
-=======
-| DELETE | [employee/delete/{id}] | return 200 .OK | To delete a Employee.
->>>>>>> 0e2c7b5f319af4078a310de4fd7f7ad2172a8cd4
