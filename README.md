@@ -2,6 +2,24 @@
 
 Essa é uma aplicação feita usando spring boot no padrão MVC (model view control)
 
+## Índice
+- ⚙️ [Tecnologias](#-tecnologias)
+- 💻 [Instruções back end](#-Instruções-para-o-back-end)
+- 🎨 [Instruções front end](#-Instruções-para-o-back-end)
+## ⚙️ Tecnologias 
+
+- **Back end**
+    - [Spring Boot](https://spring.io/projects/spring-boot)
+    - [MySQL](https://www.mysql.com/)
+    - [Maven](https://maven.apache.org/)
+    - [Java](https://www.java.com/pt-BR/)
+    
+- **Front end**
+    - [Angular](https://angular.io/)
+    - [Typescript](https://www.typescriptlang.org/)
+    - [Yarn](https://yarnpkg.com/)
+    
+    
 ## 💻 Instruções para o back end
 
 Começaremos criando as instâncias dos nossos bancos de dados. Para esse projeto, é necessario ter um MySQL server instalado na sua maquina. com ele instalado vai na no aplication propeties o caminho está em 
@@ -55,13 +73,19 @@ use os métodos abaixo para testar a api
 | PUT | [employee/update] | return 200 .OK| to update a Employee
 | DELETE | [employee/delete/{id}] | return 200 .OK | To delete a Employee.
 
-## 🎨 Front end instructions
+## 🎨 Instruções front end
+
+Após executar o back e garantir que o mesmo esteja funcionando. rode os seguintes comandos:
 
 
-## Development server
+  ```bash
+    # Baixar as dependências
+    yarn
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+    # Inicializar a aplicação
+    yarn start
+  ```
+### Servidor de desenvolvimento
+ ```ng serve```
+### Buildar o projeto
+ ```ng build```
