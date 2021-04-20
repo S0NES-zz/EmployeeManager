@@ -54,3 +54,14 @@ use os métodos abaixo para testar a api
 | POST | [employee/add] | return 201 .CREATED| to adda a new Employee.
 | PUT | [employee/update] | return 200 .OK| to update a Employee
 | DELETE | [employee/delete/{id}] | return 200 .OK | To delete a Employee.
+
+## 🎨 Front end instructions
+
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
