@@ -80,7 +80,9 @@ Após executar o back e garantir que o mesmo esteja funcionando. rode os seguint
 
   ```bash
     # Baixar as dependências
-    yarn
+    npm install --save-dev angular@cli
+    or
+    yarn add --dev angular@cli
 
     # Inicializar a aplicação
     yarn start
